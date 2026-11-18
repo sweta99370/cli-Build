@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local CLI configuration
+.cli-build/
+
+# Build output and coverage
+out/
+dist/
+coverage/
+*.lcov
+*.tgz
+*.tsbuildinfo
+
+# Logs and caches
+logs/
+*.log
+report.*.json
+.eslintcache
+.cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
